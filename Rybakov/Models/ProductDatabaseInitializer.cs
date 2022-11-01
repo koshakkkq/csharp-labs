@@ -48,7 +48,7 @@ namespace Rybakov.Models
                     ProductID = 2,
                     ProductName = "Old-time Car",
                     Description = "There's nothing old about this toy car, except it's looks. Compatible with other old toy cars.",
-                    ImagePath="car2.jpg",
+                    ImagePath = "car2.jpg",
                     UnitPrice = 15.95,
                      CategoryID = 1
                },
