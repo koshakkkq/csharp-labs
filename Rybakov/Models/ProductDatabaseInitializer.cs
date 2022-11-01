@@ -18,32 +18,12 @@ namespace Rybakov.Models
                 new Category
                 {
                     CategoryID = 1,
-                    CategoryName = "Машины"
+                    CategoryName = "Новые"
                 },
                 new Category
                 {
                     CategoryID = 2,
-                    CategoryName = "Самолеты"
-                },
-                new Category
-                {
-                    CategoryID = 3,
-                    CategoryName = "Грузовики"
-                },
-                new Category
-                {
-                    CategoryID = 4,
-                    CategoryName = "Корабли"
-                },
-                new Category
-                {
-                    CategoryID = 5,
-                    CategoryName = "Ракеты"
-                },
-                new Category
-                {
-                    CategoryID = 6,
-                    CategoryName = "Новинки"
+                    CategoryName = "Б/у"
                 },
             };
 
@@ -59,7 +39,7 @@ namespace Rybakov.Models
                     ProductName = "Convertible Car",
                     Description = "This convertible car is fast! The engine is powered by a neutrino based battery (not included)." +
                                   "Power it up and let it go!",
-                    ImagePath="carconvert.png",
+                    ImagePath="car1.jpg",
                     UnitPrice = 22.50,
                     CategoryID = 1
                },
@@ -68,7 +48,7 @@ namespace Rybakov.Models
                     ProductID = 2,
                     ProductName = "Old-time Car",
                     Description = "There's nothing old about this toy car, except it's looks. Compatible with other old toy cars.",
-                    ImagePath="carearly.png",
+                    ImagePath="car2.jpg",
                     UnitPrice = 15.95,
                      CategoryID = 1
                },
@@ -77,7 +57,7 @@ namespace Rybakov.Models
                     ProductID = 3,
                     ProductName = "Fast Car",
                     Description = "Yes this car is fast, but it also floats in water.",
-                    ImagePath="carfast.png",
+                    ImagePath="car3.jpg",
                     UnitPrice = 32.99,
                     CategoryID = 1
                 },
@@ -86,7 +66,7 @@ namespace Rybakov.Models
                     ProductID = 4,
                     ProductName = "Super Fast Car",
                     Description = "Use this super fast car to entertain guests. Lights and doors work!",
-                    ImagePath="carfaster.png",
+                    ImagePath="car4.jpg",
                     UnitPrice = 8.95,
                     CategoryID = 1
                 },
@@ -96,7 +76,7 @@ namespace Rybakov.Models
                     ProductName = "Old Style Racer",
                     Description = "This old style racer can fly (with user assistance). Gravity controls flight duration." +
                                   "No batteries required.",
-                    ImagePath="carracer.png",
+                    ImagePath="car5.jpg",
                     UnitPrice = 34.95,
                     CategoryID = 1
                 },
@@ -105,7 +85,7 @@ namespace Rybakov.Models
                     ProductID = 6,
                     ProductName = "Ace Plane",
                     Description = "Authentic airplane toy. Features realistic color and details.",
-                    ImagePath="planeace.png",
+                    ImagePath="car6.jpg",
                     UnitPrice = 95.00,
                     CategoryID = 2
                 },
@@ -114,7 +94,7 @@ namespace Rybakov.Models
                     ProductID = 7,
                     ProductName = "Glider",
                     Description = "This fun glider is made from real balsa wood. Some assembly required.",
-                    ImagePath="planeglider.png",
+                    ImagePath="car7.jpg",
                     UnitPrice = 4.95,
                     CategoryID = 2
                 },
@@ -123,7 +103,7 @@ namespace Rybakov.Models
                     ProductID = 8,
                     ProductName = "Paper Plane",
                     Description = "This paper plane is like no other paper plane. Some folding required.",
-                    ImagePath="planepaper.png",
+                    ImagePath="car8.jpg",
                     UnitPrice = 2.95,
                     CategoryID = 2
                 },
@@ -132,7 +112,7 @@ namespace Rybakov.Models
                     ProductID = 9,
                     ProductName = "Propeller Plane",
                     Description = "Rubber band powered plane features two wheels.",
-                    ImagePath="planeprop.png",
+                    ImagePath="car9.jpg",
                     UnitPrice = 32.95,
                     CategoryID = 2
                 },
@@ -141,27 +121,27 @@ namespace Rybakov.Models
                     ProductID = 10,
                     ProductName = "Early Truck",
                     Description = "This toy truck has a real gas powered engine. Requires regular tune ups.",
-                    ImagePath="truckearly.png",
+                    ImagePath="car10.jpg",
                     UnitPrice = 15.00,
-                    CategoryID = 3
+                    CategoryID = 1
                 },
                 new Product
                 {
                     ProductID = 11,
                     ProductName = "Fire Truck",
                     Description = "You will have endless fun with this one quarter sized fire truck.",
-                    ImagePath="truckfire.png",
+                    ImagePath="car11.jpg",
                     UnitPrice = 26.00,
-                    CategoryID = 3
+                    CategoryID = 2
                 },
                 new Product
                 {
                     ProductID = 12,
                     ProductName = "Big Truck",
                     Description = "This fun toy truck can be used to tow other trucks that are not as big.",
-                    ImagePath="truckbig.png",
+                    ImagePath="car12.jpg",
                     UnitPrice = 29.00,
-                    CategoryID = 3
+                    CategoryID = 1
                 },
                 new Product
                 {
@@ -169,9 +149,9 @@ namespace Rybakov.Models
                     ProductName = "Big Ship",
                     Description = "Is it a boat or a ship. Let this floating vehicle decide by using its " +
                                   "artifically intelligent computer brain!",
-                    ImagePath="boatbig.png",
+                    ImagePath="car13.jpg",
                     UnitPrice = 95.00,
-                    CategoryID = 4
+                    CategoryID = 2
                 },
                 new Product
                 {
@@ -179,27 +159,27 @@ namespace Rybakov.Models
                     ProductName = "Paper Boat",
                     Description = "Floating fun for all! This toy boat can be assembled in seconds. Floats for minutes!" +
                                   "Some folding required.",
-                    ImagePath="boatpaper.png",
+                    ImagePath="car14.jpg",
                     UnitPrice = 4.95,
-                    CategoryID = 4
+                    CategoryID = 1
                 },
                 new Product
                 {
                     ProductID = 15,
                     ProductName = "Sail Boat",
                     Description = "Put this fun toy sail boat in the water and let it go!",
-                    ImagePath="boatsail.png",
+                    ImagePath="car15.jpg",
                     UnitPrice = 42.95,
-                    CategoryID = 4
+                    CategoryID = 1
                 },
                 new Product
                 {
                     ProductID = 16,
                     ProductName = "Rocket",
                     Description = "This fun rocket will travel up to a height of 200 feet.",
-                    ImagePath="rocket.png",
+                    ImagePath="car16.jpg",
                     UnitPrice = 122.95,
-                    CategoryID = 5
+                    CategoryID = 2
                 }
             };
 
