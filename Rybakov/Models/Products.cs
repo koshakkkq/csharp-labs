@@ -7,7 +7,7 @@ namespace Rybakov.Models
         [ScaffoldColumn(false)]
         public int ProductID { get; set; }
 
-        [Required, StringLength(100), Display(Name = "Name")]
+        [Required, StringLength(99), Display(Name = "Name")]
         public string ProductName { get; set; }
 
         [Required, StringLength(10000), Display(Name = "Product Description"), DataType(DataType.MultilineText)]

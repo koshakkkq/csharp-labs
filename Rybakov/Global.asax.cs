@@ -8,7 +8,7 @@ using System.Web.Security;
 using System.Web.SessionState;
 using System.Data.Entity;
 using Rybakov.Models;
-
+using Rybakov.Logic;
 namespace Rybakov
 {
     public class Global : HttpApplication
@@ -20,6 +20,10 @@ namespace Rybakov
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
             Database.SetInitializer(new ProductDatabaseInitializer());
+            // Создайте пользовательскую роль и пользователя.
+            RoleActions roleActions = new RoleActions();
+            roleActions.AddUserAndRole();
+
         }
     }
 }

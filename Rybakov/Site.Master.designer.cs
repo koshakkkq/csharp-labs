@@ -15,6 +15,24 @@ namespace Rybakov
     {
 
         /// <summary>
+        /// adminLink элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически созданное поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor adminLink;
+
+        /// <summary>
+        /// cartCount элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически созданное поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor cartCount;
+
+        /// <summary>
         /// Image1 элемент управления.
         /// </summary>
         /// <remarks>
